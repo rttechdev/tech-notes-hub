@@ -60,7 +60,7 @@ messages = [
     },
     {
         "role": "user",
-        "content": "Hey, I am Roshankar, nice to meet you. Who are you?",
+        "content": "Hey, I am Roshan, nice to meet you. Who are you?",
     },
 ]
 ```

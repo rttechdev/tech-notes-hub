@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Notes Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <h1 class="logo">📚 Learning Notes Hub</h1>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        🌙
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="home-container">
+    <div class="home-content">
+      <h2>Welcome to Your Learning Notes</h2>
+      <p>Select a category to explore your notes</p>
+
+      <div class="categories-grid" id="categoriesGrid">
+        <p class="loading">Loading categories...</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="shared-script.js"></script>
+  <script>
+    async function loadCategories() {
+      try {
+        const categories = await fetchJSON('categories.json');
+        renderCategories(categories);
+      } catch (error) {
+        console.error('Error loading categories:', error);
+        document.getElementById('categoriesGrid').innerHTML =
+          '<p class="error">Failed to load categories</p>';
+      }
+    }
+
+    function renderCategories(categories) {
+      const grid = document.getElementById('categoriesGrid');
+      grid.innerHTML = '';
+
+      categories.forEach(category => {
+        const card = document.createElement('a');
+        card.className = 'category-card';
+        card.href = `${category.path}/`;
+        card.innerHTML = `
+          <div class="category-icon">${category.icon}</div>
+          <div class="category-name">${category.name}</div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', loadCategories);
+  </script>
+</body>
+</html>

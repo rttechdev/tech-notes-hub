@@ -1,0 +1,209 @@
+[
+  {
+    "type": "folder",
+    "name": "Root Notes",
+    "path": "",
+    "children": [
+      {
+        "name": "01_Select",
+        "path": "01_Select.md",
+        "file": "01_Select.md"
+      },
+      {
+        "name": "02_Select_Distinct",
+        "path": "02_Select_Distinct.md",
+        "file": "02_Select_Distinct.md"
+      },
+      {
+        "name": "03_Count",
+        "path": "03_Count.md",
+        "file": "03_Count.md"
+      },
+      {
+        "name": "04_AS_Clause",
+        "path": "04_AS_Clause.md",
+        "file": "04_AS_Clause.md"
+      },
+      {
+        "name": "04_Where",
+        "path": "04_Where.md",
+        "file": "04_Where.md"
+      },
+      {
+        "name": "05_Order_By",
+        "path": "05_Order_By.md",
+        "file": "05_Order_By.md"
+      },
+      {
+        "name": "06_LIMIT",
+        "path": "06_LIMIT.md",
+        "file": "06_LIMIT.md"
+      },
+      {
+        "name": "07_Between",
+        "path": "07_Between.md",
+        "file": "07_Between.md"
+      },
+      {
+        "name": "08_IN_NOT-IN",
+        "path": "08_IN_NOT-IN.md",
+        "file": "08_IN_NOT-IN.md"
+      },
+      {
+        "name": "09_Group_By_Overview",
+        "path": "09_Group_By_Overview.md",
+        "file": "09_Group_By_Overview.md"
+      },
+      {
+        "name": "10_Aggregate_functions",
+        "path": "10_Aggregate_functions.md",
+        "file": "10_Aggregate_functions.md"
+      },
+      {
+        "name": "11_Group_By",
+        "path": "11_Group_By.md",
+        "file": "11_Group_By.md"
+      },
+      {
+        "name": "12_Having",
+        "path": "12_Having.md",
+        "file": "12_Having.md"
+      },
+      {
+        "name": "13_Group_By_Having",
+        "path": "13_Group_By_Having.md",
+        "file": "13_Group_By_Having.md"
+      },
+      {
+        "name": "14_Inner_Join",
+        "path": "14_Inner_Join.md",
+        "file": "14_Inner_Join.md"
+      },
+      {
+        "name": "15_Full_Outer_Join",
+        "path": "15_Full_Outer_Join.md",
+        "file": "15_Full_Outer_Join.md"
+      },
+      {
+        "name": "16_Left_Outer_Join",
+        "path": "16_Left_Outer_Join.md",
+        "file": "16_Left_Outer_Join.md"
+      },
+      {
+        "name": "17_Joins_Unions",
+        "path": "17_Joins_Unions.md",
+        "file": "17_Joins_Unions.md"
+      },
+      {
+        "name": "18_Right_Join",
+        "path": "18_Right_Join.md",
+        "file": "18_Right_Join.md"
+      },
+      {
+        "name": "19_Union",
+        "path": "19_Union.md",
+        "file": "19_Union.md"
+      },
+      {
+        "name": "20_Timestamp_and_Extract",
+        "path": "20_Timestamp_and_Extract.md",
+        "file": "20_Timestamp_and_Extract.md"
+      },
+      {
+        "name": "21_Mathematical_Functions",
+        "path": "21_Mathematical_Functions.md",
+        "file": "21_Mathematical_Functions.md"
+      },
+      {
+        "name": "22_String_Functions_&_Operations",
+        "path": "22_String_Functions_&_Operations.md",
+        "file": "22_String_Functions_&_Operations.md"
+      },
+      {
+        "name": "23_Chosing_Data_Types",
+        "path": "23_Chosing_Data_Types.md",
+        "file": "23_Chosing_Data_Types.md"
+      },
+      {
+        "name": "24_Primary_Foreign_Keys",
+        "path": "24_Primary_Foreign_Keys.md",
+        "file": "24_Primary_Foreign_Keys.md"
+      },
+      {
+        "name": "25_Constraints",
+        "path": "25_Constraints.md",
+        "file": "25_Constraints.md"
+      },
+      {
+        "name": "26_Create_Table",
+        "path": "26_Create_Table.md",
+        "file": "26_Create_Table.md"
+      },
+      {
+        "name": "27_Insert_Into",
+        "path": "27_Insert_Into.md",
+        "file": "27_Insert_Into.md"
+      },
+      {
+        "name": "28_Update",
+        "path": "28_Update.md",
+        "file": "28_Update.md"
+      },
+      {
+        "name": "29_Delete",
+        "path": "29_Delete.md",
+        "file": "29_Delete.md"
+      },
+      {
+        "name": "30_ALTER_TABLE",
+        "path": "30_ALTER_TABLE.md",
+        "file": "30_ALTER_TABLE.md"
+      },
+      {
+        "name": "31_DROP_COLUMN",
+        "path": "31_DROP_COLUMN.md",
+        "file": "31_DROP_COLUMN.md"
+      },
+      {
+        "name": "32_CHECK Constraint",
+        "path": "32_CHECK Constraint.md",
+        "file": "32_CHECK Constraint.md"
+      },
+      {
+        "name": "33_Conditional Expressions & Operators",
+        "path": "33_Conditional Expressions & Operators.md",
+        "file": "33_Conditional Expressions & Operators.md"
+      },
+      {
+        "name": "34_CASE",
+        "path": "34_CASE.md",
+        "file": "34_CASE.md"
+      },
+      {
+        "name": "35_COALESCE",
+        "path": "35_COALESCE.md",
+        "file": "35_COALESCE.md"
+      },
+      {
+        "name": "36_CAST",
+        "path": "36_CAST.md",
+        "file": "36_CAST.md"
+      },
+      {
+        "name": "37_NULLIF",
+        "path": "37_NULLIF.md",
+        "file": "37_NULLIF.md"
+      },
+      {
+        "name": "38_Views",
+        "path": "38_Views.md",
+        "file": "38_Views.md"
+      },
+      {
+        "name": "39_Import & Export Data with pgAdmin",
+        "path": "39_Import & Export Data with pgAdmin.md",
+        "file": "39_Import & Export Data with pgAdmin.md"
+      }
+    ]
+  }
+]

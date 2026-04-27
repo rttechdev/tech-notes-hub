@@ -1,0 +1,555 @@
+[
+  {
+    "type": "folder",
+    "name": "1. Core Foundations of Generative AI",
+    "path": "1. Core Foundations of Generative AI",
+    "children": [
+      {
+        "name": "01_introduction_to_llms",
+        "path": "1. Core Foundations of Generative AI/01_introduction_to_llms.md",
+        "file": "01_introduction_to_llms.md"
+      },
+      {
+        "name": "02_how_llms_work",
+        "path": "1. Core Foundations of Generative AI/02_how_llms_work.md",
+        "file": "02_how_llms_work.md"
+      },
+      {
+        "name": "03_transformer_architecture",
+        "path": "1. Core Foundations of Generative AI/03_transformer_architecture.md",
+        "file": "03_transformer_architecture.md"
+      },
+      {
+        "name": "04_tokenization",
+        "path": "1. Core Foundations of Generative AI/04_tokenization.md",
+        "file": "04_tokenization.md"
+      },
+      {
+        "name": "05_building_tokenizer_in_python",
+        "path": "1. Core Foundations of Generative AI/05_building_tokenizer_in_python.md",
+        "file": "05_building_tokenizer_in_python.md"
+      },
+      {
+        "name": "06_transformer_architecture_deep_dive",
+        "path": "1. Core Foundations of Generative AI/06_transformer_architecture_deep_dive.md",
+        "file": "06_transformer_architecture_deep_dive.md"
+      },
+      {
+        "name": "07_vector_embeddings",
+        "path": "1. Core Foundations of Generative AI/07_vector_embeddings.md",
+        "file": "07_vector_embeddings.md"
+      },
+      {
+        "name": "08_positional_encoding",
+        "path": "1. Core Foundations of Generative AI/08_positional_encoding.md",
+        "file": "08_positional_encoding.md"
+      },
+      {
+        "name": "09_attention_mechanisms",
+        "path": "1. Core Foundations of Generative AI/09_attention_mechanisms.md",
+        "file": "09_attention_mechanisms.md"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "2. API Setup & Integration",
+    "path": "2. API Setup & Integration",
+    "children": [
+      {
+        "name": "01_openai_account_setup",
+        "path": "2. API Setup & Integration/01_openai_account_setup.md",
+        "file": "01_openai_account_setup.md"
+      },
+      {
+        "name": "02_openai_api_in_python",
+        "path": "2. API Setup & Integration/02_openai_api_in_python.md",
+        "file": "02_openai_api_in_python.md"
+      },
+      {
+        "name": "03_gemini_setup_and_python_call",
+        "path": "2. API Setup & Integration/03_gemini_setup_and_python_call.md",
+        "file": "03_gemini_setup_and_python_call.md"
+      },
+      {
+        "name": "04_gemini_via_openai_sdk",
+        "path": "2. API Setup & Integration/04_gemini_via_openai_sdk.md",
+        "file": "04_gemini_via_openai_sdk.md"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "3. Advanced Prompt Engineering Techniques",
+    "path": "3. Advanced Prompt Engineering Techniques",
+    "children": [
+      {
+        "name": "01_what_is_prompting",
+        "path": "3. Advanced Prompt Engineering Techniques/01_what_is_prompting.md",
+        "file": "01_what_is_prompting.md"
+      },
+      {
+        "name": "02_system_prompt_basics",
+        "path": "3. Advanced Prompt Engineering Techniques/02_system_prompt_basics.md",
+        "file": "02_system_prompt_basics.md"
+      },
+      {
+        "name": "03_zero_shot_prompting",
+        "path": "3. Advanced Prompt Engineering Techniques/03_zero_shot_prompting.md",
+        "file": "03_zero_shot_prompting.md"
+      },
+      {
+        "name": "04_few_shot_prompting",
+        "path": "3. Advanced Prompt Engineering Techniques/04_few_shot_prompting.md",
+        "file": "04_few_shot_prompting.md"
+      },
+      {
+        "name": "05_structured_output_with_few_shot",
+        "path": "3. Advanced Prompt Engineering Techniques/05_structured_output_with_few_shot.md",
+        "file": "05_structured_output_with_few_shot.md"
+      },
+      {
+        "name": "06_chain_of_thought_prompting",
+        "path": "3. Advanced Prompt Engineering Techniques/06_chain_of_thought_prompting.md",
+        "file": "06_chain_of_thought_prompting.md"
+      },
+      {
+        "name": "07_automating_chain_of_thought_loop",
+        "path": "3. Advanced Prompt Engineering Techniques/07_automating_chain_of_thought_loop.md",
+        "file": "07_automating_chain_of_thought_loop.md"
+      },
+      {
+        "name": "08_persona_based_prompting",
+        "path": "3. Advanced Prompt Engineering Techniques/08_persona_based_prompting.md",
+        "file": "08_persona_based_prompting.md"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "4. Prompt Serialization & Instruction Formats",
+    "path": "4. Prompt Serialization & Instruction Formats",
+    "children": [
+      {
+        "name": "01_prompt_styles_overview",
+        "path": "4. Prompt Serialization & Instruction Formats/01_prompt_styles_overview.md",
+        "file": "01_prompt_styles_overview.md"
+      },
+      {
+        "name": "02_alpaca_style_prompting",
+        "path": "4. Prompt Serialization & Instruction Formats/02_alpaca_style_prompting.md",
+        "file": "02_alpaca_style_prompting.md"
+      },
+      {
+        "name": "03_chatml_prompting",
+        "path": "4. Prompt Serialization & Instruction Formats/03_chatml_prompting.md",
+        "file": "03_chatml_prompting.md"
+      },
+      {
+        "name": "04_instruct_style_prompting",
+        "path": "4. Prompt Serialization & Instruction Formats/04_instruct_style_prompting.md",
+        "file": "04_instruct_style_prompting.md"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "5. Local LLM Deployment & API Integration",
+    "path": "5. Local LLM Deployment & API Integration",
+    "children": [
+      {
+        "name": "01_local_llm_overview",
+        "path": "5. Local LLM Deployment & API Integration/01_local_llm_overview.md",
+        "file": "01_local_llm_overview.md"
+      },
+      {
+        "name": "02_docker_setup_for_ollama",
+        "path": "5. Local LLM Deployment & API Integration/02_docker_setup_for_ollama.md",
+        "file": "02_docker_setup_for_ollama.md"
+      },
+      {
+        "name": "03_running_ollama_in_docker",
+        "path": "5. Local LLM Deployment & API Integration/03_running_ollama_in_docker.md",
+        "file": "03_running_ollama_in_docker.md"
+      },
+      {
+        "name": "04_open_web_ui_setup",
+        "path": "5. Local LLM Deployment & API Integration/04_open_web_ui_setup.md",
+        "file": "04_open_web_ui_setup.md"
+      },
+      {
+        "name": "05_fastapi_setup",
+        "path": "5. Local LLM Deployment & API Integration/05_fastapi_setup.md",
+        "file": "05_fastapi_setup.md"
+      },
+      {
+        "name": "06_fastapi_ollama_integration",
+        "path": "5. Local LLM Deployment & API Integration/06_fastapi_ollama_integration.md",
+        "file": "06_fastapi_ollama_integration.md"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "6. Running LLMs via Hugging Face Hub",
+    "path": "6. Running LLMs via Hugging Face Hub",
+    "children": [
+      {
+        "name": "01_hugging_face_overview",
+        "path": "6. Running LLMs via Hugging Face Hub/01_hugging_face_overview.md",
+        "file": "01_hugging_face_overview.md"
+      },
+      {
+        "name": "02_hugging_face_account_setup",
+        "path": "6. Running LLMs via Hugging Face Hub/02_hugging_face_account_setup.md",
+        "file": "02_hugging_face_account_setup.md"
+      },
+      {
+        "name": "03_accessing_gated_models_on_hugging_face",
+        "path": "6. Running LLMs via Hugging Face Hub/03_accessing_gated_models_on_hugging_face.md",
+        "file": "03_accessing_gated_models_on_hugging_face.md"
+      },
+      {
+        "name": "04_hugging_face_cli_setup_and_login",
+        "path": "6. Running LLMs via Hugging Face Hub/04_hugging_face_cli_setup_and_login.md",
+        "file": "04_hugging_face_cli_setup_and_login.md"
+      },
+      {
+        "name": "05_running_hf_models_with_transformers",
+        "path": "6. Running LLMs via Hugging Face Hub/05_running_hf_models_with_transformers.md",
+        "file": "05_running_hf_models_with_transformers.md"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "7. Building AI Agents and Agentic Workflows",
+    "path": "7. Building AI Agents and Agentic Workflows",
+    "children": [
+      {
+        "name": "01_agentic_ai_section_overview",
+        "path": "7. Building AI Agents and Agentic Workflows/01_agentic_ai_section_overview.md",
+        "file": "01_agentic_ai_section_overview.md"
+      },
+      {
+        "name": "02_what_is_an_ai_agent",
+        "path": "7. Building AI Agents and Agentic Workflows/02_what_is_an_ai_agent.md",
+        "file": "02_what_is_an_ai_agent.md"
+      },
+      {
+        "name": "03_building_your_first_weather_agent",
+        "path": "7. Building AI Agents and Agentic Workflows/03_building_your_first_weather_agent.md",
+        "file": "03_building_your_first_weather_agent.md"
+      },
+      {
+        "name": "04_structured_outputs_for_reliable_agents",
+        "path": "7. Building AI Agents and Agentic Workflows/04_structured_outputs_for_reliable_agents.md",
+        "file": "04_structured_outputs_for_reliable_agents.md"
+      },
+      {
+        "name": "05_cli_coding_assistant_with_tools",
+        "path": "7. Building AI Agents and Agentic Workflows/05_cli_coding_assistant_with_tools.md",
+        "file": "05_cli_coding_assistant_with_tools.md"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "8. Building Chat with PDF Project using RAG",
+    "path": "8. Building Chat with PDF Project using RAG",
+    "children": [
+      {
+        "name": "01_rag_section_overview",
+        "path": "8. Building Chat with PDF Project using RAG/01_rag_section_overview.md",
+        "file": "01_rag_section_overview.md"
+      },
+      {
+        "name": "02_rag_problem_statement",
+        "path": "8. Building Chat with PDF Project using RAG/02_rag_problem_statement.md",
+        "file": "02_rag_problem_statement.md"
+      },
+      {
+        "name": "03_how_rag_works_and_naive_baseline",
+        "path": "8. Building Chat with PDF Project using RAG/03_how_rag_works_and_naive_baseline.md",
+        "file": "03_how_rag_works_and_naive_baseline.md"
+      },
+      {
+        "name": "04_rag_indexing_phase",
+        "path": "8. Building Chat with PDF Project using RAG/04_rag_indexing_phase.md",
+        "file": "04_rag_indexing_phase.md"
+      },
+      {
+        "name": "05_rag_retrieval_phase",
+        "path": "8. Building Chat with PDF Project using RAG/05_rag_retrieval_phase.md",
+        "file": "05_rag_retrieval_phase.md"
+      },
+      {
+        "name": "06_vector_database_setup_with_qdrant",
+        "path": "8. Building Chat with PDF Project using RAG/06_vector_database_setup_with_qdrant.md",
+        "file": "06_vector_database_setup_with_qdrant.md"
+      },
+      {
+        "name": "07_langchain_rag_framework",
+        "path": "8. Building Chat with PDF Project using RAG/07_langchain_rag_framework.md",
+        "file": "07_langchain_rag_framework.md"
+      },
+      {
+        "name": "08_loading_and_chunking_documents",
+        "path": "8. Building Chat with PDF Project using RAG/08_loading_and_chunking_documents.md",
+        "file": "08_loading_and_chunking_documents.md"
+      },
+      {
+        "name": "09_smart_document_chunking_with_overlap",
+        "path": "8. Building Chat with PDF Project using RAG/09_smart_document_chunking_with_overlap.md",
+        "file": "09_smart_document_chunking_with_overlap.md"
+      },
+      {
+        "name": "10_creating_embeddings_and_storing_in_db",
+        "path": "8. Building Chat with PDF Project using RAG/10_creating_embeddings_and_storing_in_db.md",
+        "file": "10_creating_embeddings_and_storing_in_db.md"
+      },
+      {
+        "name": "11_rag_retrieval_phase_implementation",
+        "path": "8. Building Chat with PDF Project using RAG/11_rag_retrieval_phase_implementation.md",
+        "file": "11_rag_retrieval_phase_implementation.md"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "9. Scalable RAG with Async Queues & Distributed Workers",
+    "path": "9. Scalable RAG with Async Queues & Distributed Workers",
+    "children": [
+      {
+        "name": "01_the_synchronous_problem_and_async_solution",
+        "path": "9. Scalable RAG with Async Queues & Distributed Workers/01_the_synchronous_problem_and_async_solution.md",
+        "file": "01_the_synchronous_problem_and_async_solution.md"
+      },
+      {
+        "name": "02_queues_in_system_design",
+        "path": "9. Scalable RAG with Async Queues & Distributed Workers/02_queues_in_system_design.md",
+        "file": "02_queues_in_system_design.md"
+      },
+      {
+        "name": "03_rq_setup_with_valkey",
+        "path": "9. Scalable RAG with Async Queues & Distributed Workers/03_rq_setup_with_valkey.md",
+        "file": "03_rq_setup_with_valkey.md"
+      },
+      {
+        "name": "04_rq_producer_setup",
+        "path": "9. Scalable RAG with Async Queues & Distributed Workers/04_rq_producer_setup.md",
+        "file": "04_rq_producer_setup.md"
+      },
+      {
+        "name": "05_worker_function_implementation",
+        "path": "9. Scalable RAG with Async Queues & Distributed Workers/05_worker_function_implementation.md",
+        "file": "05_worker_function_implementation.md"
+      },
+      {
+        "name": "06_fastapi_server_setup",
+        "path": "9. Scalable RAG with Async Queues & Distributed Workers/06_fastapi_server_setup.md",
+        "file": "06_fastapi_server_setup.md"
+      },
+      {
+        "name": "07_chat_endpoint_enqueuing",
+        "path": "9. Scalable RAG with Async Queues & Distributed Workers/07_chat_endpoint_enqueuing.md",
+        "file": "07_chat_endpoint_enqueuing.md"
+      },
+      {
+        "name": "08_result_endpoint_polling",
+        "path": "9. Scalable RAG with Async Queues & Distributed Workers/08_result_endpoint_polling.md",
+        "file": "08_result_endpoint_polling.md"
+      },
+      {
+        "name": "09_running_rq_workers",
+        "path": "9. Scalable RAG with Async Queues & Distributed Workers/09_running_rq_workers.md",
+        "file": "09_running_rq_workers.md"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "10. Multi Modal Agents",
+    "path": "10. Multi Modal Agents",
+    "children": [
+      {
+        "name": "01_introduction_to_multimodal_ai",
+        "path": "10. Multi Modal Agents/01_introduction_to_multimodal_ai.md",
+        "file": "01_introduction_to_multimodal_ai.md"
+      },
+      {
+        "name": "02_image_input_with_openai",
+        "path": "10. Multi Modal Agents/02_image_input_with_openai.md",
+        "file": "02_image_input_with_openai.md"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "11. langgraph",
+    "path": "11. langgraph",
+    "children": [
+      {
+        "name": "01_langgraph_intro",
+        "path": "11. langgraph/01_langgraph_intro.md",
+        "file": "01_langgraph_intro.md"
+      },
+      {
+        "name": "02_what_is_langgraph",
+        "path": "11. langgraph/02_what_is_langgraph.md",
+        "file": "02_what_is_langgraph.md"
+      },
+      {
+        "name": "03_nodes_edges_and_state",
+        "path": "11. langgraph/03_nodes_edges_and_state.md",
+        "file": "03_nodes_edges_and_state.md"
+      },
+      {
+        "name": "04_state_and_graph_setup",
+        "path": "11. langgraph/04_state_and_graph_setup.md",
+        "file": "04_state_and_graph_setup.md"
+      },
+      {
+        "name": "05_defining_and_registering_nodes",
+        "path": "11. langgraph/05_defining_and_registering_nodes.md",
+        "file": "05_defining_and_registering_nodes.md"
+      },
+      {
+        "name": "06_edges_and_compiling_graph",
+        "path": "11. langgraph/06_edges_and_compiling_graph.md",
+        "file": "06_edges_and_compiling_graph.md"
+      },
+      {
+        "name": "07_invoking_the_graph",
+        "path": "11. langgraph/07_invoking_the_graph.md",
+        "file": "07_invoking_the_graph.md"
+      },
+      {
+        "name": "08_integrating_llm_into_node",
+        "path": "11. langgraph/08_integrating_llm_into_node.md",
+        "file": "08_integrating_llm_into_node.md"
+      },
+      {
+        "name": "09_conditional_edges",
+        "path": "11. langgraph/09_conditional_edges.md",
+        "file": "09_conditional_edges.md"
+      },
+      {
+        "name": "10_checkpointing_intro",
+        "path": "11. langgraph/10_checkpointing_intro.md",
+        "file": "10_checkpointing_intro.md"
+      },
+      {
+        "name": "11_mongodb_setup_for_checkpointing",
+        "path": "11. langgraph/11_mongodb_setup_for_checkpointing.md",
+        "file": "11_mongodb_setup_for_checkpointing.md"
+      },
+      {
+        "name": "12_checkpointing_with_mongodb",
+        "path": "11. langgraph/12_checkpointing_with_mongodb.md",
+        "file": "12_checkpointing_with_mongodb.md"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "13. Graph Memory and Knowledge Graphs In AI Agents",
+    "path": "13. Graph Memory and Knowledge Graphs In AI Agents",
+    "children": [
+      {
+        "name": "01_section_overview",
+        "path": "13. Graph Memory and Knowledge Graphs In AI Agents/01_section_overview.md",
+        "file": "01_section_overview.md"
+      },
+      {
+        "name": "02_what_is_a_graph",
+        "path": "13. Graph Memory and Knowledge Graphs In AI Agents/02_what_is_a_graph.md",
+        "file": "02_what_is_a_graph.md"
+      },
+      {
+        "name": "03_why_graph_memory",
+        "path": "13. Graph Memory and Knowledge Graphs In AI Agents/03_why_graph_memory.md",
+        "file": "03_why_graph_memory.md"
+      },
+      {
+        "name": "04_graph_databases_overview",
+        "path": "13. Graph Memory and Knowledge Graphs In AI Agents/04_graph_databases_overview.md",
+        "file": "04_graph_databases_overview.md"
+      },
+      {
+        "name": "05_neo4j_aura_setup",
+        "path": "13. Graph Memory and Knowledge Graphs In AI Agents/05_neo4j_aura_setup.md",
+        "file": "05_neo4j_aura_setup.md"
+      },
+      {
+        "name": "06_cypher_query_basics",
+        "path": "13. Graph Memory and Knowledge Graphs In AI Agents/06_cypher_query_basics.md",
+        "file": "06_cypher_query_basics.md"
+      },
+      {
+        "name": "07_connecting_neo4j_to_python_memory",
+        "path": "13. Graph Memory and Knowledge Graphs In AI Agents/07_connecting_neo4j_to_python_memory.md",
+        "file": "07_connecting_neo4j_to_python_memory.md"
+      },
+      {
+        "name": "08_graph_memory_runtime_validation",
+        "path": "13. Graph Memory and Knowledge Graphs In AI Agents/08_graph_memory_runtime_validation.md",
+        "file": "08_graph_memory_runtime_validation.md"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "14. Voice agents",
+    "path": "14. Voice agents",
+    "children": [
+      {
+        "name": "01_voice_agents_overview",
+        "path": "14. Voice agents/01_voice_agents_overview.md",
+        "file": "01_voice_agents_overview.md"
+      },
+      {
+        "name": "02_voice_agent_architecture_patterns",
+        "path": "14. Voice agents/02_voice_agent_architecture_patterns.md",
+        "file": "02_voice_agent_architecture_patterns.md"
+      },
+      {
+        "name": "03_speech_to_speech_architecture",
+        "path": "14. Voice agents/03_speech_to_speech_architecture.md",
+        "file": "03_speech_to_speech_architecture.md"
+      },
+      {
+        "name": "04_chained_architecture_for_voice_agents",
+        "path": "14. Voice agents/04_chained_architecture_for_voice_agents.md",
+        "file": "04_chained_architecture_for_voice_agents.md"
+      },
+      {
+        "name": "05_first_stt_setup_in_python",
+        "path": "14. Voice agents/05_first_stt_setup_in_python.md",
+        "file": "05_first_stt_setup_in_python.md"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "15. MCP",
+    "path": "15. MCP",
+    "children": [
+      {
+        "name": "01_mcp_section_overview",
+        "path": "15. MCP/01_mcp_section_overview.md",
+        "file": "01_mcp_section_overview.md"
+      },
+      {
+        "name": "02_what_problem_does_mcp_solve",
+        "path": "15. MCP/02_what_problem_does_mcp_solve.md",
+        "file": "02_what_problem_does_mcp_solve.md"
+      },
+      {
+        "name": "03_mcp_official_definition_and_architecture",
+        "path": "15. MCP/03_mcp_official_definition_and_architecture.md",
+        "file": "03_mcp_official_definition_and_architecture.md"
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Gen-ai",
+    "path": "gen-ai",
+    "icon": "🤖"
+  },
+  {
+    "name": "Sql",
+    "path": "sql",
+    "icon": "🗄️"
+  }
+]

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gen-AI Notes - Learning Hub</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <div class="header-left">
+          <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+            ☰
+          </button>
+          <a href="../" class="back-home" aria-label="Go back">←</a>
+          <h1 class="logo">🤖 Gen-AI Notes</h1>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          🌙
+        </button>
+      </div>
+    </header>
+
+    <div class="main-wrapper">
+      <!-- Sidebar Navigation -->
+      <aside class="sidebar" id="sidebar">
+        <nav class="nav-tree" id="navTree">
+          <p class="loading">Loading notes...</p>
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="content" id="content">
+        <div class="welcome">
+          <h2>Gen-AI Notes</h2>
+          <p>Select a note from the sidebar to get started.</p>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
+  <script src="../shared-script.js"></script>
+  <script src="../category-script.js"></script>
+  <script>
+    // Initialize category page for gen-ai
+    initializeCategoryPage('gen-ai');
+  </script>
+</body>
+</html>

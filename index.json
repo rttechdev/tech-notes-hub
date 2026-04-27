@@ -1,0 +1,890 @@
+{
+  "gen-ai": [
+    {
+      "type": "folder",
+      "name": "1. Core Foundations of Generative AI",
+      "path": "gen-ai/1. Core Foundations of Generative AI",
+      "children": [
+        {
+          "type": "file",
+          "name": "01_introduction_to_llms",
+          "path": "gen-ai/1. Core Foundations of Generative AI/01_introduction_to_llms.md",
+          "fullPath": "01_introduction_to_llms.md"
+        },
+        {
+          "type": "file",
+          "name": "02_how_llms_work",
+          "path": "gen-ai/1. Core Foundations of Generative AI/02_how_llms_work.md",
+          "fullPath": "02_how_llms_work.md"
+        },
+        {
+          "type": "file",
+          "name": "03_transformer_architecture",
+          "path": "gen-ai/1. Core Foundations of Generative AI/03_transformer_architecture.md",
+          "fullPath": "03_transformer_architecture.md"
+        },
+        {
+          "type": "file",
+          "name": "04_tokenization",
+          "path": "gen-ai/1. Core Foundations of Generative AI/04_tokenization.md",
+          "fullPath": "04_tokenization.md"
+        },
+        {
+          "type": "file",
+          "name": "05_building_tokenizer_in_python",
+          "path": "gen-ai/1. Core Foundations of Generative AI/05_building_tokenizer_in_python.md",
+          "fullPath": "05_building_tokenizer_in_python.md"
+        },
+        {
+          "type": "file",
+          "name": "06_transformer_architecture_deep_dive",
+          "path": "gen-ai/1. Core Foundations of Generative AI/06_transformer_architecture_deep_dive.md",
+          "fullPath": "06_transformer_architecture_deep_dive.md"
+        },
+        {
+          "type": "file",
+          "name": "07_vector_embeddings",
+          "path": "gen-ai/1. Core Foundations of Generative AI/07_vector_embeddings.md",
+          "fullPath": "07_vector_embeddings.md"
+        },
+        {
+          "type": "file",
+          "name": "08_positional_encoding",
+          "path": "gen-ai/1. Core Foundations of Generative AI/08_positional_encoding.md",
+          "fullPath": "08_positional_encoding.md"
+        },
+        {
+          "type": "file",
+          "name": "09_attention_mechanisms",
+          "path": "gen-ai/1. Core Foundations of Generative AI/09_attention_mechanisms.md",
+          "fullPath": "09_attention_mechanisms.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "10. Multi Modal Agents",
+      "path": "gen-ai/10. Multi Modal Agents",
+      "children": [
+        {
+          "type": "file",
+          "name": "01_introduction_to_multimodal_ai",
+          "path": "gen-ai/10. Multi Modal Agents/01_introduction_to_multimodal_ai.md",
+          "fullPath": "01_introduction_to_multimodal_ai.md"
+        },
+        {
+          "type": "file",
+          "name": "02_image_input_with_openai",
+          "path": "gen-ai/10. Multi Modal Agents/02_image_input_with_openai.md",
+          "fullPath": "02_image_input_with_openai.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "11. langgraph",
+      "path": "gen-ai/11. langgraph",
+      "children": [
+        {
+          "type": "file",
+          "name": "01_langgraph_intro",
+          "path": "gen-ai/11. langgraph/01_langgraph_intro.md",
+          "fullPath": "01_langgraph_intro.md"
+        },
+        {
+          "type": "file",
+          "name": "02_what_is_langgraph",
+          "path": "gen-ai/11. langgraph/02_what_is_langgraph.md",
+          "fullPath": "02_what_is_langgraph.md"
+        },
+        {
+          "type": "file",
+          "name": "03_nodes_edges_and_state",
+          "path": "gen-ai/11. langgraph/03_nodes_edges_and_state.md",
+          "fullPath": "03_nodes_edges_and_state.md"
+        },
+        {
+          "type": "file",
+          "name": "04_state_and_graph_setup",
+          "path": "gen-ai/11. langgraph/04_state_and_graph_setup.md",
+          "fullPath": "04_state_and_graph_setup.md"
+        },
+        {
+          "type": "file",
+          "name": "05_defining_and_registering_nodes",
+          "path": "gen-ai/11. langgraph/05_defining_and_registering_nodes.md",
+          "fullPath": "05_defining_and_registering_nodes.md"
+        },
+        {
+          "type": "file",
+          "name": "06_edges_and_compiling_graph",
+          "path": "gen-ai/11. langgraph/06_edges_and_compiling_graph.md",
+          "fullPath": "06_edges_and_compiling_graph.md"
+        },
+        {
+          "type": "file",
+          "name": "07_invoking_the_graph",
+          "path": "gen-ai/11. langgraph/07_invoking_the_graph.md",
+          "fullPath": "07_invoking_the_graph.md"
+        },
+        {
+          "type": "file",
+          "name": "08_integrating_llm_into_node",
+          "path": "gen-ai/11. langgraph/08_integrating_llm_into_node.md",
+          "fullPath": "08_integrating_llm_into_node.md"
+        },
+        {
+          "type": "file",
+          "name": "09_conditional_edges",
+          "path": "gen-ai/11. langgraph/09_conditional_edges.md",
+          "fullPath": "09_conditional_edges.md"
+        },
+        {
+          "type": "file",
+          "name": "10_checkpointing_intro",
+          "path": "gen-ai/11. langgraph/10_checkpointing_intro.md",
+          "fullPath": "10_checkpointing_intro.md"
+        },
+        {
+          "type": "file",
+          "name": "11_mongodb_setup_for_checkpointing",
+          "path": "gen-ai/11. langgraph/11_mongodb_setup_for_checkpointing.md",
+          "fullPath": "11_mongodb_setup_for_checkpointing.md"
+        },
+        {
+          "type": "file",
+          "name": "12_checkpointing_with_mongodb",
+          "path": "gen-ai/11. langgraph/12_checkpointing_with_mongodb.md",
+          "fullPath": "12_checkpointing_with_mongodb.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "13. Graph Memory and Knowledge Graphs In AI Agents",
+      "path": "gen-ai/13. Graph Memory and Knowledge Graphs In AI Agents",
+      "children": [
+        {
+          "type": "file",
+          "name": "01_section_overview",
+          "path": "gen-ai/13. Graph Memory and Knowledge Graphs In AI Agents/01_section_overview.md",
+          "fullPath": "01_section_overview.md"
+        },
+        {
+          "type": "file",
+          "name": "02_what_is_a_graph",
+          "path": "gen-ai/13. Graph Memory and Knowledge Graphs In AI Agents/02_what_is_a_graph.md",
+          "fullPath": "02_what_is_a_graph.md"
+        },
+        {
+          "type": "file",
+          "name": "03_why_graph_memory",
+          "path": "gen-ai/13. Graph Memory and Knowledge Graphs In AI Agents/03_why_graph_memory.md",
+          "fullPath": "03_why_graph_memory.md"
+        },
+        {
+          "type": "file",
+          "name": "04_graph_databases_overview",
+          "path": "gen-ai/13. Graph Memory and Knowledge Graphs In AI Agents/04_graph_databases_overview.md",
+          "fullPath": "04_graph_databases_overview.md"
+        },
+        {
+          "type": "file",
+          "name": "05_neo4j_aura_setup",
+          "path": "gen-ai/13. Graph Memory and Knowledge Graphs In AI Agents/05_neo4j_aura_setup.md",
+          "fullPath": "05_neo4j_aura_setup.md"
+        },
+        {
+          "type": "file",
+          "name": "06_cypher_query_basics",
+          "path": "gen-ai/13. Graph Memory and Knowledge Graphs In AI Agents/06_cypher_query_basics.md",
+          "fullPath": "06_cypher_query_basics.md"
+        },
+        {
+          "type": "file",
+          "name": "07_connecting_neo4j_to_python_memory",
+          "path": "gen-ai/13. Graph Memory and Knowledge Graphs In AI Agents/07_connecting_neo4j_to_python_memory.md",
+          "fullPath": "07_connecting_neo4j_to_python_memory.md"
+        },
+        {
+          "type": "file",
+          "name": "08_graph_memory_runtime_validation",
+          "path": "gen-ai/13. Graph Memory and Knowledge Graphs In AI Agents/08_graph_memory_runtime_validation.md",
+          "fullPath": "08_graph_memory_runtime_validation.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "14. Voice agents",
+      "path": "gen-ai/14. Voice agents",
+      "children": [
+        {
+          "type": "file",
+          "name": "01_voice_agents_overview",
+          "path": "gen-ai/14. Voice agents/01_voice_agents_overview.md",
+          "fullPath": "01_voice_agents_overview.md"
+        },
+        {
+          "type": "file",
+          "name": "02_voice_agent_architecture_patterns",
+          "path": "gen-ai/14. Voice agents/02_voice_agent_architecture_patterns.md",
+          "fullPath": "02_voice_agent_architecture_patterns.md"
+        },
+        {
+          "type": "file",
+          "name": "03_speech_to_speech_architecture",
+          "path": "gen-ai/14. Voice agents/03_speech_to_speech_architecture.md",
+          "fullPath": "03_speech_to_speech_architecture.md"
+        },
+        {
+          "type": "file",
+          "name": "04_chained_architecture_for_voice_agents",
+          "path": "gen-ai/14. Voice agents/04_chained_architecture_for_voice_agents.md",
+          "fullPath": "04_chained_architecture_for_voice_agents.md"
+        },
+        {
+          "type": "file",
+          "name": "05_first_stt_setup_in_python",
+          "path": "gen-ai/14. Voice agents/05_first_stt_setup_in_python.md",
+          "fullPath": "05_first_stt_setup_in_python.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "15. MCP",
+      "path": "gen-ai/15. MCP",
+      "children": [
+        {
+          "type": "file",
+          "name": "01_mcp_section_overview",
+          "path": "gen-ai/15. MCP/01_mcp_section_overview.md",
+          "fullPath": "01_mcp_section_overview.md"
+        },
+        {
+          "type": "file",
+          "name": "02_what_problem_does_mcp_solve",
+          "path": "gen-ai/15. MCP/02_what_problem_does_mcp_solve.md",
+          "fullPath": "02_what_problem_does_mcp_solve.md"
+        },
+        {
+          "type": "file",
+          "name": "03_mcp_official_definition_and_architecture",
+          "path": "gen-ai/15. MCP/03_mcp_official_definition_and_architecture.md",
+          "fullPath": "03_mcp_official_definition_and_architecture.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "2. API Setup & Integration",
+      "path": "gen-ai/2. API Setup & Integration",
+      "children": [
+        {
+          "type": "file",
+          "name": "01_openai_account_setup",
+          "path": "gen-ai/2. API Setup & Integration/01_openai_account_setup.md",
+          "fullPath": "01_openai_account_setup.md"
+        },
+        {
+          "type": "file",
+          "name": "02_openai_api_in_python",
+          "path": "gen-ai/2. API Setup & Integration/02_openai_api_in_python.md",
+          "fullPath": "02_openai_api_in_python.md"
+        },
+        {
+          "type": "file",
+          "name": "03_gemini_setup_and_python_call",
+          "path": "gen-ai/2. API Setup & Integration/03_gemini_setup_and_python_call.md",
+          "fullPath": "03_gemini_setup_and_python_call.md"
+        },
+        {
+          "type": "file",
+          "name": "04_gemini_via_openai_sdk",
+          "path": "gen-ai/2. API Setup & Integration/04_gemini_via_openai_sdk.md",
+          "fullPath": "04_gemini_via_openai_sdk.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "3. Advanced Prompt Engineering Techniques",
+      "path": "gen-ai/3. Advanced Prompt Engineering Techniques",
+      "children": [
+        {
+          "type": "file",
+          "name": "01_what_is_prompting",
+          "path": "gen-ai/3. Advanced Prompt Engineering Techniques/01_what_is_prompting.md",
+          "fullPath": "01_what_is_prompting.md"
+        },
+        {
+          "type": "file",
+          "name": "02_system_prompt_basics",
+          "path": "gen-ai/3. Advanced Prompt Engineering Techniques/02_system_prompt_basics.md",
+          "fullPath": "02_system_prompt_basics.md"
+        },
+        {
+          "type": "file",
+          "name": "03_zero_shot_prompting",
+          "path": "gen-ai/3. Advanced Prompt Engineering Techniques/03_zero_shot_prompting.md",
+          "fullPath": "03_zero_shot_prompting.md"
+        },
+        {
+          "type": "file",
+          "name": "04_few_shot_prompting",
+          "path": "gen-ai/3. Advanced Prompt Engineering Techniques/04_few_shot_prompting.md",
+          "fullPath": "04_few_shot_prompting.md"
+        },
+        {
+          "type": "file",
+          "name": "05_structured_output_with_few_shot",
+          "path": "gen-ai/3. Advanced Prompt Engineering Techniques/05_structured_output_with_few_shot.md",
+          "fullPath": "05_structured_output_with_few_shot.md"
+        },
+        {
+          "type": "file",
+          "name": "06_chain_of_thought_prompting",
+          "path": "gen-ai/3. Advanced Prompt Engineering Techniques/06_chain_of_thought_prompting.md",
+          "fullPath": "06_chain_of_thought_prompting.md"
+        },
+        {
+          "type": "file",
+          "name": "07_automating_chain_of_thought_loop",
+          "path": "gen-ai/3. Advanced Prompt Engineering Techniques/07_automating_chain_of_thought_loop.md",
+          "fullPath": "07_automating_chain_of_thought_loop.md"
+        },
+        {
+          "type": "file",
+          "name": "08_persona_based_prompting",
+          "path": "gen-ai/3. Advanced Prompt Engineering Techniques/08_persona_based_prompting.md",
+          "fullPath": "08_persona_based_prompting.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "4. Prompt Serialization & Instruction Formats",
+      "path": "gen-ai/4. Prompt Serialization & Instruction Formats",
+      "children": [
+        {
+          "type": "file",
+          "name": "01_prompt_styles_overview",
+          "path": "gen-ai/4. Prompt Serialization & Instruction Formats/01_prompt_styles_overview.md",
+          "fullPath": "01_prompt_styles_overview.md"
+        },
+        {
+          "type": "file",
+          "name": "02_alpaca_style_prompting",
+          "path": "gen-ai/4. Prompt Serialization & Instruction Formats/02_alpaca_style_prompting.md",
+          "fullPath": "02_alpaca_style_prompting.md"
+        },
+        {
+          "type": "file",
+          "name": "03_chatml_prompting",
+          "path": "gen-ai/4. Prompt Serialization & Instruction Formats/03_chatml_prompting.md",
+          "fullPath": "03_chatml_prompting.md"
+        },
+        {
+          "type": "file",
+          "name": "04_instruct_style_prompting",
+          "path": "gen-ai/4. Prompt Serialization & Instruction Formats/04_instruct_style_prompting.md",
+          "fullPath": "04_instruct_style_prompting.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "5. Local LLM Deployment & API Integration",
+      "path": "gen-ai/5. Local LLM Deployment & API Integration",
+      "children": [
+        {
+          "type": "file",
+          "name": "01_local_llm_overview",
+          "path": "gen-ai/5. Local LLM Deployment & API Integration/01_local_llm_overview.md",
+          "fullPath": "01_local_llm_overview.md"
+        },
+        {
+          "type": "file",
+          "name": "02_docker_setup_for_ollama",
+          "path": "gen-ai/5. Local LLM Deployment & API Integration/02_docker_setup_for_ollama.md",
+          "fullPath": "02_docker_setup_for_ollama.md"
+        },
+        {
+          "type": "file",
+          "name": "03_running_ollama_in_docker",
+          "path": "gen-ai/5. Local LLM Deployment & API Integration/03_running_ollama_in_docker.md",
+          "fullPath": "03_running_ollama_in_docker.md"
+        },
+        {
+          "type": "file",
+          "name": "04_open_web_ui_setup",
+          "path": "gen-ai/5. Local LLM Deployment & API Integration/04_open_web_ui_setup.md",
+          "fullPath": "04_open_web_ui_setup.md"
+        },
+        {
+          "type": "file",
+          "name": "05_fastapi_setup",
+          "path": "gen-ai/5. Local LLM Deployment & API Integration/05_fastapi_setup.md",
+          "fullPath": "05_fastapi_setup.md"
+        },
+        {
+          "type": "file",
+          "name": "06_fastapi_ollama_integration",
+          "path": "gen-ai/5. Local LLM Deployment & API Integration/06_fastapi_ollama_integration.md",
+          "fullPath": "06_fastapi_ollama_integration.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "6. Running LLMs via Hugging Face Hub",
+      "path": "gen-ai/6. Running LLMs via Hugging Face Hub",
+      "children": [
+        {
+          "type": "file",
+          "name": "01_hugging_face_overview",
+          "path": "gen-ai/6. Running LLMs via Hugging Face Hub/01_hugging_face_overview.md",
+          "fullPath": "01_hugging_face_overview.md"
+        },
+        {
+          "type": "file",
+          "name": "02_hugging_face_account_setup",
+          "path": "gen-ai/6. Running LLMs via Hugging Face Hub/02_hugging_face_account_setup.md",
+          "fullPath": "02_hugging_face_account_setup.md"
+        },
+        {
+          "type": "file",
+          "name": "03_accessing_gated_models_on_hugging_face",
+          "path": "gen-ai/6. Running LLMs via Hugging Face Hub/03_accessing_gated_models_on_hugging_face.md",
+          "fullPath": "03_accessing_gated_models_on_hugging_face.md"
+        },
+        {
+          "type": "file",
+          "name": "04_hugging_face_cli_setup_and_login",
+          "path": "gen-ai/6. Running LLMs via Hugging Face Hub/04_hugging_face_cli_setup_and_login.md",
+          "fullPath": "04_hugging_face_cli_setup_and_login.md"
+        },
+        {
+          "type": "file",
+          "name": "05_running_hf_models_with_transformers",
+          "path": "gen-ai/6. Running LLMs via Hugging Face Hub/05_running_hf_models_with_transformers.md",
+          "fullPath": "05_running_hf_models_with_transformers.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "7. Building AI Agents and Agentic Workflows",
+      "path": "gen-ai/7. Building AI Agents and Agentic Workflows",
+      "children": [
+        {
+          "type": "file",
+          "name": "01_agentic_ai_section_overview",
+          "path": "gen-ai/7. Building AI Agents and Agentic Workflows/01_agentic_ai_section_overview.md",
+          "fullPath": "01_agentic_ai_section_overview.md"
+        },
+        {
+          "type": "file",
+          "name": "02_what_is_an_ai_agent",
+          "path": "gen-ai/7. Building AI Agents and Agentic Workflows/02_what_is_an_ai_agent.md",
+          "fullPath": "02_what_is_an_ai_agent.md"
+        },
+        {
+          "type": "file",
+          "name": "03_building_your_first_weather_agent",
+          "path": "gen-ai/7. Building AI Agents and Agentic Workflows/03_building_your_first_weather_agent.md",
+          "fullPath": "03_building_your_first_weather_agent.md"
+        },
+        {
+          "type": "file",
+          "name": "04_structured_outputs_for_reliable_agents",
+          "path": "gen-ai/7. Building AI Agents and Agentic Workflows/04_structured_outputs_for_reliable_agents.md",
+          "fullPath": "04_structured_outputs_for_reliable_agents.md"
+        },
+        {
+          "type": "file",
+          "name": "05_cli_coding_assistant_with_tools",
+          "path": "gen-ai/7. Building AI Agents and Agentic Workflows/05_cli_coding_assistant_with_tools.md",
+          "fullPath": "05_cli_coding_assistant_with_tools.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "8. Building Chat with PDF Project using RAG",
+      "path": "gen-ai/8. Building Chat with PDF Project using RAG",
+      "children": [
+        {
+          "type": "file",
+          "name": "01_rag_section_overview",
+          "path": "gen-ai/8. Building Chat with PDF Project using RAG/01_rag_section_overview.md",
+          "fullPath": "01_rag_section_overview.md"
+        },
+        {
+          "type": "file",
+          "name": "02_rag_problem_statement",
+          "path": "gen-ai/8. Building Chat with PDF Project using RAG/02_rag_problem_statement.md",
+          "fullPath": "02_rag_problem_statement.md"
+        },
+        {
+          "type": "file",
+          "name": "03_how_rag_works_and_naive_baseline",
+          "path": "gen-ai/8. Building Chat with PDF Project using RAG/03_how_rag_works_and_naive_baseline.md",
+          "fullPath": "03_how_rag_works_and_naive_baseline.md"
+        },
+        {
+          "type": "file",
+          "name": "04_rag_indexing_phase",
+          "path": "gen-ai/8. Building Chat with PDF Project using RAG/04_rag_indexing_phase.md",
+          "fullPath": "04_rag_indexing_phase.md"
+        },
+        {
+          "type": "file",
+          "name": "05_rag_retrieval_phase",
+          "path": "gen-ai/8. Building Chat with PDF Project using RAG/05_rag_retrieval_phase.md",
+          "fullPath": "05_rag_retrieval_phase.md"
+        },
+        {
+          "type": "file",
+          "name": "06_vector_database_setup_with_qdrant",
+          "path": "gen-ai/8. Building Chat with PDF Project using RAG/06_vector_database_setup_with_qdrant.md",
+          "fullPath": "06_vector_database_setup_with_qdrant.md"
+        },
+        {
+          "type": "file",
+          "name": "07_langchain_rag_framework",
+          "path": "gen-ai/8. Building Chat with PDF Project using RAG/07_langchain_rag_framework.md",
+          "fullPath": "07_langchain_rag_framework.md"
+        },
+        {
+          "type": "file",
+          "name": "08_loading_and_chunking_documents",
+          "path": "gen-ai/8. Building Chat with PDF Project using RAG/08_loading_and_chunking_documents.md",
+          "fullPath": "08_loading_and_chunking_documents.md"
+        },
+        {
+          "type": "file",
+          "name": "09_smart_document_chunking_with_overlap",
+          "path": "gen-ai/8. Building Chat with PDF Project using RAG/09_smart_document_chunking_with_overlap.md",
+          "fullPath": "09_smart_document_chunking_with_overlap.md"
+        },
+        {
+          "type": "file",
+          "name": "10_creating_embeddings_and_storing_in_db",
+          "path": "gen-ai/8. Building Chat with PDF Project using RAG/10_creating_embeddings_and_storing_in_db.md",
+          "fullPath": "10_creating_embeddings_and_storing_in_db.md"
+        },
+        {
+          "type": "file",
+          "name": "11_rag_retrieval_phase_implementation",
+          "path": "gen-ai/8. Building Chat with PDF Project using RAG/11_rag_retrieval_phase_implementation.md",
+          "fullPath": "11_rag_retrieval_phase_implementation.md"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "9. Scalable RAG with Async Queues & Distributed Workers",
+      "path": "gen-ai/9. Scalable RAG with Async Queues & Distributed Workers",
+      "children": [
+        {
+          "type": "file",
+          "name": "01_the_synchronous_problem_and_async_solution",
+          "path": "gen-ai/9. Scalable RAG with Async Queues & Distributed Workers/01_the_synchronous_problem_and_async_solution.md",
+          "fullPath": "01_the_synchronous_problem_and_async_solution.md"
+        },
+        {
+          "type": "file",
+          "name": "02_queues_in_system_design",
+          "path": "gen-ai/9. Scalable RAG with Async Queues & Distributed Workers/02_queues_in_system_design.md",
+          "fullPath": "02_queues_in_system_design.md"
+        },
+        {
+          "type": "file",
+          "name": "03_rq_setup_with_valkey",
+          "path": "gen-ai/9. Scalable RAG with Async Queues & Distributed Workers/03_rq_setup_with_valkey.md",
+          "fullPath": "03_rq_setup_with_valkey.md"
+        },
+        {
+          "type": "file",
+          "name": "04_rq_producer_setup",
+          "path": "gen-ai/9. Scalable RAG with Async Queues & Distributed Workers/04_rq_producer_setup.md",
+          "fullPath": "04_rq_producer_setup.md"
+        },
+        {
+          "type": "file",
+          "name": "05_worker_function_implementation",
+          "path": "gen-ai/9. Scalable RAG with Async Queues & Distributed Workers/05_worker_function_implementation.md",
+          "fullPath": "05_worker_function_implementation.md"
+        },
+        {
+          "type": "file",
+          "name": "06_fastapi_server_setup",
+          "path": "gen-ai/9. Scalable RAG with Async Queues & Distributed Workers/06_fastapi_server_setup.md",
+          "fullPath": "06_fastapi_server_setup.md"
+        },
+        {
+          "type": "file",
+          "name": "07_chat_endpoint_enqueuing",
+          "path": "gen-ai/9. Scalable RAG with Async Queues & Distributed Workers/07_chat_endpoint_enqueuing.md",
+          "fullPath": "07_chat_endpoint_enqueuing.md"
+        },
+        {
+          "type": "file",
+          "name": "08_result_endpoint_polling",
+          "path": "gen-ai/9. Scalable RAG with Async Queues & Distributed Workers/08_result_endpoint_polling.md",
+          "fullPath": "08_result_endpoint_polling.md"
+        },
+        {
+          "type": "file",
+          "name": "09_running_rq_workers",
+          "path": "gen-ai/9. Scalable RAG with Async Queues & Distributed Workers/09_running_rq_workers.md",
+          "fullPath": "09_running_rq_workers.md"
+        }
+      ]
+    }
+  ],
+  "sql": [
+    {
+      "type": "file",
+      "name": "01_Select",
+      "path": "sql/01_Select.md",
+      "fullPath": "01_Select.md"
+    },
+    {
+      "type": "file",
+      "name": "02_Select_Distinct",
+      "path": "sql/02_Select_Distinct.md",
+      "fullPath": "02_Select_Distinct.md"
+    },
+    {
+      "type": "file",
+      "name": "03_Count",
+      "path": "sql/03_Count.md",
+      "fullPath": "03_Count.md"
+    },
+    {
+      "type": "file",
+      "name": "04_AS_Clause",
+      "path": "sql/04_AS_Clause.md",
+      "fullPath": "04_AS_Clause.md"
+    },
+    {
+      "type": "file",
+      "name": "04_Where",
+      "path": "sql/04_Where.md",
+      "fullPath": "04_Where.md"
+    },
+    {
+      "type": "file",
+      "name": "05_Order_By",
+      "path": "sql/05_Order_By.md",
+      "fullPath": "05_Order_By.md"
+    },
+    {
+      "type": "file",
+      "name": "06_LIMIT",
+      "path": "sql/06_LIMIT.md",
+      "fullPath": "06_LIMIT.md"
+    },
+    {
+      "type": "file",
+      "name": "07_Between",
+      "path": "sql/07_Between.md",
+      "fullPath": "07_Between.md"
+    },
+    {
+      "type": "file",
+      "name": "08_IN_NOT-IN",
+      "path": "sql/08_IN_NOT-IN.md",
+      "fullPath": "08_IN_NOT-IN.md"
+    },
+    {
+      "type": "file",
+      "name": "09_Group_By_Overview",
+      "path": "sql/09_Group_By_Overview.md",
+      "fullPath": "09_Group_By_Overview.md"
+    },
+    {
+      "type": "file",
+      "name": "10_Aggregate_functions",
+      "path": "sql/10_Aggregate_functions.md",
+      "fullPath": "10_Aggregate_functions.md"
+    },
+    {
+      "type": "file",
+      "name": "11_Group_By",
+      "path": "sql/11_Group_By.md",
+      "fullPath": "11_Group_By.md"
+    },
+    {
+      "type": "file",
+      "name": "12_Having",
+      "path": "sql/12_Having.md",
+      "fullPath": "12_Having.md"
+    },
+    {
+      "type": "file",
+      "name": "13_Group_By_Having",
+      "path": "sql/13_Group_By_Having.md",
+      "fullPath": "13_Group_By_Having.md"
+    },
+    {
+      "type": "file",
+      "name": "14_Inner_Join",
+      "path": "sql/14_Inner_Join.md",
+      "fullPath": "14_Inner_Join.md"
+    },
+    {
+      "type": "file",
+      "name": "15_Full_Outer_Join",
+      "path": "sql/15_Full_Outer_Join.md",
+      "fullPath": "15_Full_Outer_Join.md"
+    },
+    {
+      "type": "file",
+      "name": "16_Left_Outer_Join",
+      "path": "sql/16_Left_Outer_Join.md",
+      "fullPath": "16_Left_Outer_Join.md"
+    },
+    {
+      "type": "file",
+      "name": "17_Joins_Unions",
+      "path": "sql/17_Joins_Unions.md",
+      "fullPath": "17_Joins_Unions.md"
+    },
+    {
+      "type": "file",
+      "name": "18_Right_Join",
+      "path": "sql/18_Right_Join.md",
+      "fullPath": "18_Right_Join.md"
+    },
+    {
+      "type": "file",
+      "name": "19_Union",
+      "path": "sql/19_Union.md",
+      "fullPath": "19_Union.md"
+    },
+    {
+      "type": "file",
+      "name": "20_Timestamp_and_Extract",
+      "path": "sql/20_Timestamp_and_Extract.md",
+      "fullPath": "20_Timestamp_and_Extract.md"
+    },
+    {
+      "type": "file",
+      "name": "21_Mathematical_Functions",
+      "path": "sql/21_Mathematical_Functions.md",
+      "fullPath": "21_Mathematical_Functions.md"
+    },
+    {
+      "type": "file",
+      "name": "22_String_Functions_&_Operations",
+      "path": "sql/22_String_Functions_&_Operations.md",
+      "fullPath": "22_String_Functions_&_Operations.md"
+    },
+    {
+      "type": "file",
+      "name": "23_Chosing_Data_Types",
+      "path": "sql/23_Chosing_Data_Types.md",
+      "fullPath": "23_Chosing_Data_Types.md"
+    },
+    {
+      "type": "file",
+      "name": "24_Primary_Foreign_Keys",
+      "path": "sql/24_Primary_Foreign_Keys.md",
+      "fullPath": "24_Primary_Foreign_Keys.md"
+    },
+    {
+      "type": "file",
+      "name": "25_Constraints",
+      "path": "sql/25_Constraints.md",
+      "fullPath": "25_Constraints.md"
+    },
+    {
+      "type": "file",
+      "name": "26_Create_Table",
+      "path": "sql/26_Create_Table.md",
+      "fullPath": "26_Create_Table.md"
+    },
+    {
+      "type": "file",
+      "name": "27_Insert_Into",
+      "path": "sql/27_Insert_Into.md",
+      "fullPath": "27_Insert_Into.md"
+    },
+    {
+      "type": "file",
+      "name": "28_Update",
+      "path": "sql/28_Update.md",
+      "fullPath": "28_Update.md"
+    },
+    {
+      "type": "file",
+      "name": "29_Delete",
+      "path": "sql/29_Delete.md",
+      "fullPath": "29_Delete.md"
+    },
+    {
+      "type": "file",
+      "name": "30_ALTER_TABLE",
+      "path": "sql/30_ALTER_TABLE.md",
+      "fullPath": "30_ALTER_TABLE.md"
+    },
+    {
+      "type": "file",
+      "name": "31_DROP_COLUMN",
+      "path": "sql/31_DROP_COLUMN.md",
+      "fullPath": "31_DROP_COLUMN.md"
+    },
+    {
+      "type": "file",
+      "name": "32_CHECK Constraint",
+      "path": "sql/32_CHECK Constraint.md",
+      "fullPath": "32_CHECK Constraint.md"
+    },
+    {
+      "type": "file",
+      "name": "33_Conditional Expressions & Operators",
+      "path": "sql/33_Conditional Expressions & Operators.md",
+      "fullPath": "33_Conditional Expressions & Operators.md"
+    },
+    {
+      "type": "file",
+      "name": "34_CASE",
+      "path": "sql/34_CASE.md",
+      "fullPath": "34_CASE.md"
+    },
+    {
+      "type": "file",
+      "name": "35_COALESCE",
+      "path": "sql/35_COALESCE.md",
+      "fullPath": "35_COALESCE.md"
+    },
+    {
+      "type": "file",
+      "name": "36_CAST",
+      "path": "sql/36_CAST.md",
+      "fullPath": "36_CAST.md"
+    },
+    {
+      "type": "file",
+      "name": "37_NULLIF",
+      "path": "sql/37_NULLIF.md",
+      "fullPath": "37_NULLIF.md"
+    },
+    {
+      "type": "file",
+      "name": "38_Views",
+      "path": "sql/38_Views.md",
+      "fullPath": "38_Views.md"
+    },
+    {
+      "type": "file",
+      "name": "39_Import & Export Data with pgAdmin",
+      "path": "sql/39_Import & Export Data with pgAdmin.md",
+      "fullPath": "39_Import & Export Data with pgAdmin.md"
+    }
+  ]
+}

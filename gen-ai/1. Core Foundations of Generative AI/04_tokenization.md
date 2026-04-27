@@ -98,7 +98,7 @@ Using the **tiktoken** visualization tool (built by OpenAI), let's see how actua
 
 ### Input Text:
 ```
-"Hey there, my name is Piyushk"
+"Hey there, my name is Roshank"
 ```
 
 ### GPT-4o Tokenization:
@@ -114,13 +114,13 @@ Token 5: "," → 11
 Token 6: " my" → 486
 Token 7: " name" → 1024
 Token 8: " is" → 374
-Token 9: " Piyush" → 47
+Token 9: " Roshan" → 47
 Token 10: "k" → 581
 ```
 
 ### Key Observations:
 
-1. **Not character-by-character**: Sometimes words are split (like "Piyush" + "k")
+1. **Not character-by-character**: Sometimes words are split (like "Roshan" + "k")
 2. **Special tokens**: Start/end tokens are used (e.g., `<|im_start|>`, `<|im_end|>`)
 3. **Spaces matter**: Spaces are sometimes included in tokens
 4. **Numbers are used**: Each token has a unique integer ID
@@ -139,7 +139,7 @@ This is what the transformer actually receives!
 
 ### Same Input Text:
 ```
-"Hey there, my name is Piyushk"
+"Hey there, my name is Roshank"
 ```
 
 ### Gemini Tokenization:
@@ -153,7 +153,7 @@ Token 3: "," → 12
 Token 4: " my" → 452
 Token 5: " name" → 981
 Token 6: " is" → 318
-Token 7: " Piyush" → 64
+Token 7: " Roshan" → 64
 Token 8: "k" → 437
 ```
 
@@ -185,7 +185,7 @@ This is why you can't directly compare token counts between models - they tokeni
 ### 2. **Not One-to-One with Characters**
 - Tokens aren't individual characters
 - Often include common word pieces or subwords
-- Example: "Piyushk" might be split as ["Piyush", "k"]
+- Example: "Roshank" might be split as ["Roshan", "k"]
 
 ### 3. **Special Tokens**
 - Models have special tokens for:
@@ -245,7 +245,7 @@ Token Count: 6 tokens
 
 ### Example:
 ```
-Text: "Hi there, my name is Piyushk"
+Text: "Hi there, my name is Roshank"
 
 GPT-4o: 8 tokens (more efficient)
 Gemini: 9 tokens (less efficient)

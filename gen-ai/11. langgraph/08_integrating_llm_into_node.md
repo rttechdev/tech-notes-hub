@@ -76,7 +76,7 @@ graph_builder.add_edge("sample_node", END)
 
 graph = graph_builder.compile()
 
-updated_state = graph.invoke({"messages": ["Hi, my name is Piyush Garg."]})
+updated_state = graph.invoke({"messages": ["Hi, my name is Roshan Tiwari."]})
 print("\nUpdated state:", updated_state)
 ```
 
@@ -87,8 +87,8 @@ print("\nUpdated state:", updated_state)
 ```
 Updated state: {
     "messages": [
-        HumanMessage(content="Hi, my name is Piyush Garg."),
-        AIMessage(content="Hello Piyush Garg, how can I assist you today?", ...),
+        HumanMessage(content="Hi, my name is Roshan Tiwari."),
+        AIMessage(content="Hello Roshan Tiwari, how can I assist you today?", ...),
         "Sample message appended."
     ]
 }

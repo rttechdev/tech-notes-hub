@@ -6,7 +6,7 @@ Call `graph.invoke()` and pass the **initial state**:
 
 ```python
 updated_state = graph.invoke({
-    "messages": ["Hi, my name is Piyush Garg."]
+    "messages": ["Hi, my name is Roshan Tiwari."]
 })
 
 print("Updated state:", updated_state)
@@ -23,13 +23,13 @@ Given this graph: `START → chatbot → sample_node → END`
 
 ### Initial state (passed to `invoke`):
 ```
-messages: ["Hi, my name is Piyush Garg."]
+messages: ["Hi, my name is Roshan Tiwari."]
 ```
 
 ### After `chatbot` node runs:
 ```
 messages: [
-    "Hi, my name is Piyush Garg.",
+    "Hi, my name is Roshan Tiwari.",
     "Hi, this is a message from the chatbot node."
 ]
 ```
@@ -37,7 +37,7 @@ messages: [
 ### After `sample_node` runs:
 ```
 messages: [
-    "Hi, my name is Piyush Garg.",
+    "Hi, my name is Roshan Tiwari.",
     "Hi, this is a message from the chatbot node.",
     "Sample message appended."
 ]
@@ -47,7 +47,7 @@ messages: [
 ```python
 {
     "messages": [
-        "Hi, my name is Piyush Garg.",
+        "Hi, my name is Roshan Tiwari.",
         "Hi, this is a message from the chatbot node.",
         "Sample message appended."
     ]
@@ -86,7 +86,7 @@ graph_builder.add_edge("sample_node", END)
 
 graph = graph_builder.compile()
 
-updated_state = graph.invoke({"messages": ["Hi, my name is Piyush Garg."]})
+updated_state = graph.invoke({"messages": ["Hi, my name is Roshan Tiwari."]})
 print("\nFinal updated state:", updated_state)
 ```
 

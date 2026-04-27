@@ -55,7 +55,7 @@ After startup, chat with the agent normally (no manual Cypher needed).
 
 Example inputs:
 
-- "My name is Piyush. I like pizza with tomato toppings and hot tea."
+- "My name is Roshan. I like pizza with tomato toppings and hot tea."
 - "I am a full-stack developer. My stack is Node.js, JavaScript, Postgres."
 - "I also work with Python for GenAI workloads."
 

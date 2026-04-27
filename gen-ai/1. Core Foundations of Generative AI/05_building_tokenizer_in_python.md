@@ -86,7 +86,7 @@ import tiktoken
 encoder = tiktoken.encoding_for_model("gpt-4o")
 
 # Text to tokenize
-text = "Hey there, my name is Piyush Garg"
+text = "Hey there, my name is Roshan Tiwari"
 
 # Encode text to tokens
 tokens = encoder.encode(text)
@@ -130,7 +130,7 @@ This creates an **encoder** object specifically for the GPT-4o model.
 
 ### Define Text
 ```python
-text = "Hey there, my name is Piyush Garg"
+text = "Hey there, my name is Roshan Tiwari"
 ```
 
 This is the text we want to tokenize.
@@ -173,7 +173,7 @@ print(decoded_text)
 
 ### Output:
 ```
-Hey there, my name is Piyush Garg
+Hey there, my name is Roshan Tiwari
 ```
 
 ---
@@ -189,7 +189,7 @@ import tiktoken
 encoder = tiktoken.encoding_for_model("gpt-4o")
 
 # Original text
-original_text = "Hey there, my name is Piyush Garg"
+original_text = "Hey there, my name is Roshan Tiwari"
 print(f"Original Text: {original_text}")
 
 # Encode to tokens
@@ -207,12 +207,12 @@ print(f"\nMatch: {original_text == decoded_text}")
 
 ### Output:
 ```
-Original Text: Hey there, my name is Piyush Garg
+Original Text: Hey there, my name is Roshan Tiwari
 
 Encoded Tokens: [71, 1456, 11, 856, 1024, 374, 11244, 384, 1035]
 Number of Tokens: 9
 
-Decoded Text: Hey there, my name is Piyush Garg
+Decoded Text: Hey there, my name is Roshan Tiwari
 
 Match: True
 ```
@@ -258,7 +258,7 @@ Here's how to compare tokenization for different models:
 ```python
 import tiktoken
 
-text = "Hey there, my name is Piyush Garg"
+text = "Hey there, my name is Roshan Tiwari"
 
 # Try different models
 models = ["gpt-4o", "gpt-4", "gpt-3.5-turbo"]

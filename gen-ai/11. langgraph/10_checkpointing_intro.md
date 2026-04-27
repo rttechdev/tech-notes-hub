@@ -8,8 +8,8 @@ By default, when a LangGraph graph finishes execution, the state is **deleted fr
 
 ```python
 # Run 1: tell the agent your name
-graph.invoke({"messages": ["Hi, my name is Piyush."]})
-# → AI responds: "Hello Piyush, how can I assist you today?"
+graph.invoke({"messages": ["Hi, my name is Roshan."]})
+# → AI responds: "Hello Roshan, how can I assist you today?"
 
 # Run 2: ask the agent your name (new invocation)
 graph.invoke({"messages": ["What is my name?"]})

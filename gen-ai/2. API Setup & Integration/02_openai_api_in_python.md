@@ -54,7 +54,7 @@ client = OpenAI()
 response = client.chat.completions.create(
     model="gpt-4o",
     messages=[
-        {"role": "user", "content": "Hey, I am Piyush. Nice to meet you."}
+        {"role": "user", "content": "Hey, I am Roshan. Nice to meet you."}
     ]
 )
 
@@ -64,7 +64,7 @@ print(response.choices[0].message.content)
 
 **Output:**
 ```
-Nice to meet you, Piyush. How can I assist you today?
+Nice to meet you, Roshan. How can I assist you today?
 ```
 
 ---

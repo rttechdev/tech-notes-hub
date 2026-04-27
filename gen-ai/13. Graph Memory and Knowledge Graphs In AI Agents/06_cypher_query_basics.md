@@ -19,7 +19,7 @@ You do not need to memorize all of it. LLMs are usually good at generating Cyphe
 Create a `User` node:
 
 ```cypher
-CREATE (u:User {name: "Piyush"})
+CREATE (u:User {name: "Roshan"})
 RETURN u
 ```
 
@@ -60,7 +60,7 @@ This is useful for checking what currently exists in the database.
 Find a specific user:
 
 ```cypher
-MATCH (u:User {name: "Piyush"})
+MATCH (u:User {name: "Roshan"})
 RETURN u
 ```
 
@@ -73,7 +73,7 @@ This is an important pattern: first match the node you want, then create or merg
 Connect a user to a company with an `EMPLOYEE_OF` relationship:
 
 ```cypher
-MATCH (u:User {name: "Piyush"})
+MATCH (u:User {name: "Roshan"})
 MATCH (c:Company {name: "Google"})
 MERGE (u)-[:EMPLOYEE_OF]->(c)
 ```
@@ -126,7 +126,7 @@ If run multiple times, you get duplicate company nodes.
 Better pattern:
 
 ```cypher
-MATCH (u:User {name: "Piyush"})
+MATCH (u:User {name: "Roshan"})
 MATCH (c:Company {name: "Google"})
 MERGE (u)-[:EMPLOYEE_OF]->(c)
 ```

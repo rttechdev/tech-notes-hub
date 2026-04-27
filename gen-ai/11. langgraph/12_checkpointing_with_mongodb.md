@@ -58,7 +58,7 @@ def compile_graph(checkpointer):
     return graph_builder.compile(checkpointer=checkpointer)
 
 # Thread-scoped config — use user ID as thread_id in production
-config = {"configurable": {"thread_id": "piyush"}}
+config = {"configurable": {"thread_id": "roshan"}}
 
 MONGO_URI = "mongodb://admin:admin@localhost:27017"
 
@@ -99,13 +99,13 @@ for chunk in graph.stream(input_state, config, stream_mode="values"):
 State is **isolated per thread ID**. Different thread IDs = completely separate conversation histories.
 
 ```python
-# Piyush's session
-config = {"configurable": {"thread_id": "piyush"}}
-# → remembers Piyush's conversation history
+# Roshan's session
+config = {"configurable": {"thread_id": "roshan"}}
+# → remembers Roshan's conversation history
 
 # John's session
 config = {"configurable": {"thread_id": "john"}}
-# → separate history, no access to Piyush's messages
+# → separate history, no access to Roshan's messages
 ```
 
 In production, use the **user's ID** as the `thread_id` to prevent conversations from mixing.

@@ -66,7 +66,7 @@ Google is a **search engine** - it finds existing content based on keywords.
 
 #### LLM (Generative):
 ```
-User Query: "From now onwards, address me as cute Piyushkar"
+User Query: "From now onwards, address me as cute Roshankar"
 LLM Process:
   - Understands the instruction
   - Generates new text on the spot
@@ -77,8 +77,8 @@ Output: New content created specifically for this interaction
 
 **Real Example:**
 ```
-User: "Hi, from now onwards address me as cute Piyushkar. Who am I?"
-LLM: "You are Piyushkar, and I'll address you as cute Piyushkar from now on."
+User: "Hi, from now onwards address me as cute Roshankar. Who am I?"
+LLM: "You are Roshankar, and I'll address you as cute Roshankar from now on."
 ```
 
 This text doesn't exist anywhere on the internet. The LLM **generates** it specifically for your input.
